@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tarea.clase.pkg2;
+package pck2;
+
 
 /**
  *
  * @author isral
  */
 public class Precio {
-    double euros;
+    private double euros;
     public double obtener(){
         return euros;
         
