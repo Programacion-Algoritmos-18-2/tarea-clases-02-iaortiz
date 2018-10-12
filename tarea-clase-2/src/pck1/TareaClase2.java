@@ -20,8 +20,10 @@ public class TareaClase2 {
         // TODO code application logic here
         Precio p = new Precio();
         Scanner entrada = new Scanner(System.in);
+        //Ingreso del dato por teclado
         System.out.println("Ingrese un numerito");
         p.agregar(entrada.nextInt());
+        //Presentacion del numero
         System.out.println(p.obtener());
     }
     

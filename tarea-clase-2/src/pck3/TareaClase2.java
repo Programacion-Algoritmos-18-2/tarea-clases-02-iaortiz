@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package pck3;
+
 import java.util.Scanner;
 
 /**
@@ -17,11 +18,15 @@ public class TareaClase2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Precio p = new Precio();
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese un numerito");
-
+        Precio p;
+        //creacion de los objetos
+        p = new Precio();
+        Precio m = new Precio(2);
+        Precio n = new Precio(255);
+        //se presenta las cantidades
         System.out.println(p.obtener());
+        System.out.println(m.obtener());
+        System.out.println(n.obtener());
     }
-    
+
 }

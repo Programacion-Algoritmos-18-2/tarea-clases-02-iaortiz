@@ -12,10 +12,12 @@ package pck2;
  */
 public class Precio {
     private double euros;
+    //Metodo para obtener el valor de euro
     public double obtener(){
         return euros;
         
     }
+    //
     public void agregar(double x){
         euros = x;
     }

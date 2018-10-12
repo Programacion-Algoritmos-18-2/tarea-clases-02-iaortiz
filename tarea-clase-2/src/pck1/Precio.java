@@ -10,10 +10,11 @@ package pck1;
  * @author isral
  */
 public class Precio {
+    //Definicoón de variables
     double euros;
     public double obtener(){
         return euros;
-        
+    //metodo para guardar el dato en la variable euro
     }
     public void agregar(double x){
         euros = x;

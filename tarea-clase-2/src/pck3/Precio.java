@@ -5,28 +5,28 @@
  */
 package pck3;
 
-
-
 /**
  *
  * @author isral
  */
 public class Precio {
-    private double euros; 
-    private double esda; 
-    private double as; 
 
+    private double euros;
 
-
-    
-    public double obtener(){
+    public double obtener() {
         return euros;
-        
+
     }
-    public void agregar(double x){
+
+    public void agregar(double x) {
         euros = x;
     }
-    public Precio(){
+
+    public Precio() {
         agregar(30.2);
+    }
+
+    public Precio(double y) {
+        agregar(y);
     }
 }
